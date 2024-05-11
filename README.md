@@ -1,6 +1,6 @@
-![atlas-advanced-html-header](https://github.com/manningstinson/atlas-web-development/assets/104523090/bc99a09c-0e39-4647-af4a-23310d93cfe7)
-# Atlas School  | HTML Advanced
+![atlas-advanced-html-header](https://github.com/manningstinson/atlas-web-development/assets/104523090/5c55f9cf-057c-4901-9e52-3dc9df22d084)
 
+# Atlas School  | HTML Advanced
 
 In this project we were to create the semantic layout of a web static project. We had a wireframe mockup that we followed. No CSS styling was added yet. Below are the wireframes for the project that were followed, and the resulting code. 
 
