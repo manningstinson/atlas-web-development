@@ -14,8 +14,24 @@ Create a well-structured HTML document with semantic elements.
 - No CSS styles were applied eventhough placeholder classes were included
 
 ### Header
+![header](https://github.com/manningstinson/atlas-web-development/assets/104523090/ff305a6a-d989-4f02-a21c-4445f71aefda)
+
+
+
 ### Banner
+![banner](https://github.com/manningstinson/atlas-web-development/assets/104523090/3bca0e99-c117-491d-a75a-cf7bab16c057)
+
+
 ### Quote
+![quote](https://github.com/manningstinson/atlas-web-development/assets/104523090/005a34cd-176b-4dd0-870a-e863ffe29416)
+
+
+
 ### FAQ
+![faq](https://github.com/manningstinson/atlas-web-development/assets/104523090/a24fba43-d610-408c-a185-bbceefc394bc)
+
+
 ### Footer
+![footer](https://github.com/manningstinson/atlas-web-development/assets/104523090/5a3a7a65-6e41-4567-916a-6f6d1bb2fa4b)
+
 
