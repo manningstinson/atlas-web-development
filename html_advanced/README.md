@@ -15,7 +15,7 @@ Create a well-structured HTML document with semantic elements.
 
 ### Header
 ![header](https://github.com/manningstinson/atlas-web-development/assets/104523090/ff305a6a-d989-4f02-a21c-4445f71aefda)
-### 1. Header
+
 ```html
 <header>
   <a href="index.html">
@@ -49,7 +49,6 @@ Create a well-structured HTML document with semantic elements.
   </div>
 </section>
 ```
-
 
 ### Quote
 ![quote](https://github.com/manningstinson/atlas-web-development/assets/104523090/005a34cd-176b-4dd0-870a-e863ffe29416)
