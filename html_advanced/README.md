@@ -15,6 +15,17 @@ Create a well-structured HTML document with semantic elements.
 
 ### Header
 ![header](https://github.com/manningstinson/atlas-web-development/assets/104523090/ff305a6a-d989-4f02-a21c-4445f71aefda)
+<header>
+  <a href="index.html">
+    Advanced HTML<img src="img/logo.png" alt="logo-image" />
+  </a>
+
+  <div class="navlinks">
+    <a href="login.html">Home</a>
+    <a href="pricing.html">About</a>
+    <a href="courses.html">Services</a>
+  </div>
+</header>
 
 
 
