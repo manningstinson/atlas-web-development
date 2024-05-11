@@ -28,9 +28,7 @@ Create a well-structured HTML document with semantic elements.
     <a href="courses.html">Services</a>
   </div>
 </header>
-
-
-
+```
 
 ### Banner
 ![banner](https://github.com/manningstinson/atlas-web-development/assets/104523090/3bca0e99-c117-491d-a75a-cf7bab16c057)
