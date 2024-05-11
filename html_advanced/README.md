@@ -33,9 +33,29 @@ Create a well-structured HTML document with semantic elements.
 ### Banner
 ![banner](https://github.com/manningstinson/atlas-web-development/assets/104523090/3bca0e99-c117-491d-a75a-cf7bab16c057)
 
+```
+<section>
+  <div>
+    <h1>Get schooled</h1>
+    <p>Smiles</p>
+    <p>Grin</p>
+    <p>Laugh</p>
+    <button>REGISTER FOR FREE</button>
+  </div>
+
+  <div>
+    <h2>Learn from the pros</h2>
+    <!-- Four blocks with images, headings, and text -->
+  </div>
+</section>
+```
+
 
 ### Quote
 ![quote](https://github.com/manningstinson/atlas-web-development/assets/104523090/005a34cd-176b-4dd0-870a-e863ffe29416)
+
+
+
 
 
 ### FAQ
