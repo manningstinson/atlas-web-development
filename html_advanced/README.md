@@ -26,7 +26,6 @@ Create a well-structured HTML document with semantic elements.
 ![quote](https://github.com/manningstinson/atlas-web-development/assets/104523090/005a34cd-176b-4dd0-870a-e863ffe29416)
 
 
-
 ### FAQ
 ![faq](https://github.com/manningstinson/atlas-web-development/assets/104523090/a24fba43-d610-408c-a185-bbceefc394bc)
 
