@@ -5,7 +5,7 @@ The wireframe was created in Figma, and can be accessed here.
 [Figma Wireframe](https://www.figma.com/file/XrEAsu1vQj5fhVaNG38d2W/Homepage?type=design&node-id=0-1&mode=design&t=r2vCvbwwmBs9XkWP-0)
 
 You can access the HTML file here:
-[HTML File: index.html ](https://github.com/manningstinson/atlas-web-development/blob/main/html_advanced/index.html)
+[index.html](https://github.com/manningstinson/atlas-web-development/blob/main/html_advanced/index.html)
 
 
 ## Objectives
