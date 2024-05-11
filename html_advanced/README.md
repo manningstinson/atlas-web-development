@@ -6,9 +6,8 @@ The wireframe was created in Figma, and can be accessed here.
 
 
 ## Objectives
-Implement the HTML structure based on the provided wireframes and designer file.
-Create a well-structured HTML document with semantic elements.
-
+- Implement the HTML structure based on the provided wireframes and designer file.
+- Create a well-structured HTML document with semantic elements.
 - Implement the HTML structure based on the provided wireframes and designer file.
 - Create a well-structured HTML document with semantic elements.
 - No CSS styles were applied eventhough placeholder classes were included
