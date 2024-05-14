@@ -31,41 +31,6 @@ You can access the HTML file here:
         <a href="pricing.html">About</a>
         <a href="courses.html">Services</a>
       </div>
-
-      <section>
-        <div>
-          <h1>Get schooled</h1>
-          <p>Smiles</p>
-          <p>Grin</p>
-          <p>Laugh</p>
-          <button>REGISTER FOR FREE</button>
-        </div>
-
-        <div>
-          <h2>Learn from the pros</h2>
-          <div>
-            <div class="pro1">
-              <img src="img/phillip-massey.png" alt="Phillip Massey" />
-              <p>« Smile of the year » 2018 - 2019</p>
-            </div>
-
-            <div class="pro2">
-              <img src="img/nannie-lawrence.png" alt="Nannie Lawrence" />
-              <p>« Best « little smile » 2017</p>
-            </div>
-
-            <div class="pro3">
-              <img src="img/bruce-walters.png" alt="Bruce Walters" />
-              <p>« Best « Friend Smile » live performance 2019</p>
-            </div>
-
-            <div class="pro4">
-              <img src="img/henry-hughes.png" alt="Henry Hughes" />
-              <p>« 24h smiles » winner 2016 - 2019</p>
-            </div>
-          </div>
-        </div>
-      </section>
     </header>
 ```
 
