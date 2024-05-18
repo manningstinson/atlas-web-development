@@ -7,19 +7,23 @@
 .main-part-container {
   width: 1440px;
   height: 1093px;
-  margin: 0 auto; /* Center the main part container horizontally */
-  /* Add any other styles for the main part container if needed */
-}
-
-.header-container {
-  width: 1448.15px;
-  height: 1055px;
-  position: relative;
-  top: -66px;
-  left: -4.08px;
+  margin: 0 auto;
   background-image: url("img/header-background.jpg"); /* Adjust with the actual image file name and path */
   background-size: cover; /* Scale the image to cover the container */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  /* Add any other styles for the header container if needed */
+  /* Add any other styles for the header container if needed */ /* Center the main part container horizontally */
+  /* Add any other styles for the main part container if needed */
+}
+
+.header {
+  width: 1440px;
+  height: 100px;
+  background-color: #333; /* Adjust with the desired background color */
+  /* Add any other styles for the header if needed */
+}
+.logo {
+  width: 200px; /* Adjust the width as needed */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  /* Add any other styles for the logo if needed */
 }
