@@ -73,3 +73,22 @@
   opacity: 1; /* Set opacity to 1 to make the container fully visible */
   background: #071629; /* Add background color */
 }
+
+.faq-container {
+  width: 1440px;
+  height: 392px;
+  top: 1093px;
+  left: -1px;
+  gap: 0px;
+  opacity: 1; /* Set opacity to 1 to make the container fully visible */
+}
+
+.footer-container {
+  width: 1440px;
+  height: 392px;
+  top: 1093px;
+  left: -1px;
+  gap: 0px;
+  opacity: 1; /* Set opacity to 1 to make the container fully visible */
+  background: #071629; /* Add background color */
+}
