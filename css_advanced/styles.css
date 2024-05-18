@@ -71,6 +71,7 @@
   left: 259px;
   gap: 0px;
   opacity: 0;
+  background-image: url("img/avatar.png");
   /* Add any other styles for the avatar if needed */
 }
 
