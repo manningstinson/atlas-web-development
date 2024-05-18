@@ -1,6 +1,7 @@
 .school-page-container {
   width: 1440px;
   margin: 0 auto; /* Center the container horizontally */
+  background: #ffffff; /* Add white background */
   /* Add any other styles for the container if needed */
 }
 
@@ -35,4 +36,24 @@
   z-index: 1;
   background-image: url("img/SmileSchool.png"); /* Specify the image URL here */
   /* Add any other styles for the logo if needed */
+}
+
+#header .nav {
+  width: 903.41px; /* Adjust the width as needed */
+  height: 29.46px; /* Adjust the height as needed */
+  position: relative; /* Ensure the menu is positioned relative to its parent */
+  z-index: 1;
+  /* Add any other styles for the menu if needed */
+}
+
+.testimonials {
+  width: 1440px;
+  height: 392px;
+  position: relative;
+  top: 1093px;
+  left: -1px;
+  gap: 0px;
+  opacity: 0;
+  background: #c271ff; /* Add background color */
+  /* Add any other styles for the testimonials container if needed */
 }
