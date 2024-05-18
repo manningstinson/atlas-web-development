@@ -17,11 +17,17 @@
 }
 
 .header {
-  width: 1440px;
-  height: 100px;
-  background-color: #333; /* Adjust with the desired background color */
+  width: 1103.41px;
+  height: 29.46px;
+  position: absolute;
+  top: 35.02px;
+  left: 171.59px;
+  padding: 0px;
+  gap: 0px;
+  opacity: 0;
   /* Add any other styles for the header if needed */
 }
+
 .logo {
   width: 200px; /* Adjust the width as needed */
   height: auto; /* Automatically adjust the height to maintain aspect ratio */
