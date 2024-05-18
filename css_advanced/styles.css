@@ -114,3 +114,9 @@
   opacity: 1; /* Set opacity to 1 to make the container fully visible */
   background: #071629; /* Add background color */
 }
+
+a:link {
+  color: #ffffff; /* White color */
+  font-weight: 700; /* Bold */
+  font-family: sans-serif; /* Sans-serif font */
+}
