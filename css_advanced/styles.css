@@ -33,6 +33,6 @@
   height: auto; /* Automatically adjust the height to maintain aspect ratio */
   position: relative; /* Ensure the logo is positioned relative to its parent */
   z-index: 1;
-  background-image: url("img/SmileSchool.png"); /* Set a higher z-index to ensure the logo appears above the header */
+  background-image: url("img/SmileSchool.png"); /* Specify the image URL here */
   /* Add any other styles for the logo if needed */
 }
