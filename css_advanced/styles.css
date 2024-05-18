@@ -1,9 +1,13 @@
-/* This is the page container */
 .container {
   width: 1440px;
+  margin: 0 auto; /* Center the container horizontally */
+  /* Add any other styles for the container if needed */
+}
+
+.main-part-container {
+  width: 1440px;
   height: 1093px;
-  margin: 0 auto; /* This will center the container horizontally if you want it to be centered */
-  background-color: #f0f0f0; /* Optional: Add a background color to see the container */
+  /* Add any other styles for the main part container if needed */
 }
 
 .header-container {
@@ -12,8 +16,9 @@
   position: absolute;
   top: -66px;
   left: -4.08px;
-  background-image: url("img/header-background.jpg");
+  background-image: url("/img/your-background-image.jpg"); /* Adjust with the actual image file name and path */
   background-size: cover; /* Scale the image to cover the container */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
+  /* Add any other styles for the header container if needed */
 }
