@@ -21,7 +21,7 @@ You can access the HTML file here:
 ![header](https://github.com/manningstinson/atlas-web-development/assets/104523090/ff305a6a-d989-4f02-a21c-4445f71aefda)
 
 ```html
-  <header>
+     <header>
       <a href="index.html">
         Advanced HTML<img src="img/logo.png" alt="logo-image" />
       </a>
