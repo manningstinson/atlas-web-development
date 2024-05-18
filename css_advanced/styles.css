@@ -44,7 +44,7 @@
   /* Add any other styles for the menu if needed */
 }
 
-.testimonials {
+.testimonials_container {
   width: 1440px;
   height: 392px;
   top: 1093px;
@@ -53,6 +53,28 @@
   opacity: 1; /* Set opacity to 1 to make the container fully visible */
   background: #c271ff; /* Add background color */
   /* Add any other styles for the testimonials container if needed */
+}
+
+.testimonial {
+  width: 943px;
+  height: 160px;
+  position: relative;
+  top: 1201px;
+  left: 259px;
+  gap: 0px;
+  opacity: 0;
+  /* Add any other styles for the testimonial if needed */
+}
+
+.avatar {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  top: 1201px;
+  left: 259px;
+  gap: 0px;
+  opacity: 0;
+  /* Add any other styles for the avatar if needed */
 }
 
 .most-popular-tutorials-container {
