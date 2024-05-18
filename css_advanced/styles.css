@@ -119,6 +119,5 @@ a:link {
   font-weight: 700; /* Bold */
   font-family: sans-serif;
   float: right;
-  padding: 0 10px 0 10px; /* Sans-serif font */
-  margin-right: -120px;
+  padding: 0 20px 0 20px; /* Sans-serif font */
 }
