@@ -1,6 +1,7 @@
 .school-page-container {
   width: 1440px;
   background: #ffffff; /* Add white background */
+  position: relative;
   /* Add any other styles for the container if needed */
 }
 
