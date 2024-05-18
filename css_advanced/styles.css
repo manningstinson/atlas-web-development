@@ -12,5 +12,8 @@
   position: absolute;
   top: -66px;
   left: -4.08px;
-  background-color: #f0f0f0; /* Optional: Add a background color to see the container */
+  background-image: url("/img/header-background.jpg"); /* Adjust with the actual image file name */
+  background-size: cover; /* Scale the image to cover the container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
 }
