@@ -119,5 +119,6 @@ a:link {
   color: #ffffff; /* White color */
   font-weight: 700; /* Bold */
   font-family: sans-serif;
-  float: right; /* Sans-serif font */
+  float: right;
+  padding: 10px; /* Sans-serif font */
 }
