@@ -47,11 +47,21 @@
 .testimonials {
   width: 1440px;
   height: 392px;
-
   top: 1093px;
   left: -1px;
   gap: 0px;
   opacity: 1; /* Set opacity to 1 to make the container fully visible */
   background: #c271ff; /* Add background color */
+  /* Add any other styles for the testimonials container if needed */
+}
+
+.most-popular-tutorials-container {
+  width: 1440px;
+  height: 392px;
+  top: 1093px;
+  left: -1px;
+  gap: 0px;
+  opacity: 1; /* Set opacity to 1 to make the container fully visible */
+  background: #fff; /* Add background color */
   /* Add any other styles for the testimonials container if needed */
 }
