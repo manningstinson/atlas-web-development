@@ -34,8 +34,6 @@
   height: auto; /* Automatically adjust the height to maintain aspect ratio */
   z-index: 1;
   float: left;
-  background-image: url("img/SmileSchool.png"); /* Specify the image URL here */
-  /* Add any other styles for the logo if needed */
   background-color: azure;
 }
 
