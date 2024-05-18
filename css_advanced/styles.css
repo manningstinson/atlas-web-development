@@ -57,7 +57,6 @@
 .testimonial {
   width: 943px;
   height: 160px;
-  position: relative;
   top: 1201px;
   left: 259px;
   gap: 0px;
@@ -68,7 +67,6 @@
 .avatar {
   width: 160px;
   height: 160px;
-  position: relative;
   top: 1201px;
   left: 259px;
   gap: 0px;
