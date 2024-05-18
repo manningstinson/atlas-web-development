@@ -14,7 +14,7 @@
 .header-container {
   width: 1448.15px;
   height: 1055px;
-  position: absolute;
+  position: relative;
   top: -66px;
   left: -4.08px;
   background-image: url("img/header-background.jpg"); /* Adjust with the actual image file name and path */
