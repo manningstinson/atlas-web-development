@@ -35,11 +35,10 @@
 }
 
 #header .nav {
-  width: 945px; /* Adjust the width as needed */
+  width: 1200px; /* Adjust the width as needed */
   height: 29.46px; /* Adjust the height as needed */
   z-index: 1;
   /* Add any other styles for the menu if needed */
-  margin-right: -150px;
 }
 
 .testimonials-container {
@@ -119,5 +118,5 @@ a:link {
   font-family: sans-serif;
   float: right;
   padding: 0 20px 0 20px; /* Sans-serif font */
-  font-size: 1rem;
+  font-size: 0.25rem;
 }
