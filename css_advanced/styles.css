@@ -39,6 +39,7 @@
   height: 29.46px; /* Adjust the height as needed */
   z-index: 1;
   /* Add any other styles for the menu if needed */
+  margin-right: -50px;
 }
 
 .testimonials-container {
@@ -119,5 +120,4 @@ a:link {
   float: right;
   padding: 0 20px 0 20px; /* Sans-serif font */
   font-size: 12px;
-  margin-right: -50px;
 }
