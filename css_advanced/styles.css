@@ -31,7 +31,6 @@
   height: auto; /* Automatically adjust the height to maintain aspect ratio */
   z-index: 1;
   float: left;
-  background-color: azure;
 }
 
 #header .nav {
