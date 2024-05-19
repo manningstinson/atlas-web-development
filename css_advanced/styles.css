@@ -38,6 +38,7 @@
   width: 1200px; /* Adjust the width as needed */
   height: 29.46px; /* Adjust the height as needed */
   z-index: 1;
+  margin-right: 50px;
   /* Add any other styles for the menu if needed */
 }
 
