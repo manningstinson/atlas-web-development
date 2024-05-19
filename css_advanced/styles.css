@@ -119,4 +119,5 @@ a:link {
   float: right;
   padding: 0 20px 0 20px; /* Sans-serif font */
   font-size: 12px;
+  margin-right: -50px;
 }
