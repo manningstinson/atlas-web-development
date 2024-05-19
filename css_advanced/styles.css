@@ -6,7 +6,7 @@
 }
 
 .main-part-container {
-  width: 1440px;
+  width: auto;
   height: 1093px;
   margin: 0 auto;
   background-image: url("img/header-background.jpg"); /* Adjust with the actual image file name and path */
