@@ -237,43 +237,42 @@ a:visited {
   border-radius: 200px;
 }
 
-#header .learn-container {
-  width: 1000px;
-  height: 237px;
-  top: 250px;
-  left: 75px;
+#header .learn-from-the-pros-container {
+  width: 750px;
+  height: 20px;
+  top: 350px;
+  gap: 0px;
   opacity: 1;
-  background-color: #fff;
   position: relative;
-}
-
-#header .learn-title-container {
-  width: 1000px;
-  height: 45px;
-  opacity: 1;
   display: flex;
-  margin-left:300px
-   align-items:center; /* Center items vertically */
+  left: 400px;
 }
 
 #header .learn-title-learn {
-  width: 85px;
-  height: 45px;
-   display: flex;
-  align-items: center; /* Center content vertically */
-  opacity: 1;
-  /* Remove unnecessary positioning properties */
-  /* top: 250px;
-  left: 75px; */
+  width: 52px;
+  height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: center;
+  margin: 0 0px; /* Adjust the margin as needed */
+  color: #c271ff;
 }
 
 #header .learn-title-from-the-pros {
-  width: 200px;
-  height: 45px;
-  display: flex;
-  align-items: center; /* Center content vertically */
-  opacity: 1;
-  /* Remove unnecessary positioning properties */
-  /* top: 250px;
-  left: 75px; */
+  width: 350px;
+  height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  line-height: 20.11px;
+  text-align: center;
+  margin: 0 35px; /* Adjust the margin as needed */
+  color: #fff;
+  margin-left: 5px;
+}
+
+#header .learn-title-from-the-pros h2 {
+  font-weight: 400; /* Ensure the font weight is normal */
+  margin: 32px; /* Remove any default margin */
 }

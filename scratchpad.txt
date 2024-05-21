@@ -121,3 +121,62 @@ display: flex;
   display: flex;
   justify-content: flex-end; /* Align content to the right inside the element */
 }
+
+
+<div id="header" class="learn-title-container">
+              <div id="header" class="learn-title-learn"><h2>Learn</h2></div>
+              <div id="header" class="learn-title-from-the-pros"><h2>From the Pros</h2></div>
+              </div>
+          </div>
+                         <div id="header" class="learn-container"></div>
+
+
+
+
+#header .learn-container {
+  width: 1200px;
+  height: 237px;
+  top: 250px;
+  left: 0px;
+  opacity: 1;
+  background-color: #fff;
+  position: relative;
+}
+
+#header .learn-title-container {
+  width: 1000px;
+  height: 45px;
+  opacity: 1;
+  display: flex;
+  margin-left: 300px; /* Corrected with a semicolon */
+  align-items: center;
+  margin-top: 300px; /* Center items vertically */
+  position: relative;
+}
+
+#header .learn-title-learn {
+  width: 36px;
+  height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: center;
+  margin: 0 20px; /* Adjust the margin as needed */
+  color: #fff;
+}
+
+#header .learn-title-from-the-pros {
+  width: 200px;
+  height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: center;
+  margin: 0 20px; /* Adjust the margin as needed */
+  color: #fff;
+}
+
+
+learn-from-the-pros-container
