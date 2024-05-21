@@ -1,5 +1,5 @@
 .school-page-container {
-  width: 1440px;
+  width: auto;
   background: #ffffff; /* Add white background */
   position: relative;
 }
@@ -16,7 +16,7 @@
 }
 
 .header {
-  width: 1103.41px;
+  width: 1200px;
   height: 29.46px;
   position: relative;
   top: 35.02px;
@@ -42,7 +42,7 @@
 }
 
 .testimonials-container {
-  width: 1440px;
+  width: auto;
   height: 392px;
   top: 1093px;
   left: -1px;
@@ -75,7 +75,7 @@
 }
 
 .most-popular-tutorials-container {
-  width: 1440px;
+  width: auto;
   height: 392px;
   top: 1093px;
   left: -1px;
@@ -84,7 +84,7 @@
 }
 
 .membership-container {
-  width: 1440px;
+  width: auto;
   height: 392px;
   top: 1093px;
   left: -1px;
@@ -94,7 +94,7 @@
 }
 
 .faq-container {
-  width: 1440px;
+  width: auto;
   height: 392px;
   top: 1093px;
   left: -1px;
@@ -103,7 +103,7 @@
 }
 
 .footer-container {
-  width: 1440px;
+  width: auto;
   height: 392px;
   top: 1093px;
   left: -1px;
@@ -112,26 +112,122 @@
   background: #071629; /* Add background color */
 }
 
+a {
+  font-family: "Source Sans Pro", sans-serif;
+  text-decoration: none; /* Remove underline from links */
+}
+
 a:link {
   color: #ffffff; /* White color */
   font-weight: 700; /* Bold */
-  font-family: sans-serif;
+  font-family: sans-serif; /* Apply sans-serif font as fallback */
   float: right;
-  padding: 0 20px 0 20px; /* Sans-serif font */
+  padding: 0 20px; /* Adjusted padding */
   font-size: 0.7rem;
+  text-decoration: none; /* Ensure no underline on unvisited links */
 }
 
-#header .get-schooled-header {
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+a:visited {
+  text-decoration: none; /* Ensure no underline on visited links */
+}
+
+#header .get-schooled-title {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 120px;
+  font-size: 3.6em;
   font-weight: 700;
   line-height: 150.84px;
   text-align: center;
-  width: 684px;
+  width: 750px;
   height: 151px;
-  top: 220px;
-  left: 200px;
+  top: 75px;
+  left: 210px;
   gap: 0px;
   opacity: 1;
-  position: relative; /* Ensures top and left work */
+  position: relative;
+  color: #fff; /* Ensures top and left work */
+}
+
+#header .title-sub-title-container {
+  width: 750px;
+  height: 20px;
+  top: 226px;
+  left: 210px;
+  gap: 0px;
+  opacity: 1;
+  position: relative;
+}
+
+#header .smiles-sub-title {
+  width: 52px;
+  height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: center;
+  margin: 0 35px; /* Adjust the margin as needed */
+  color: #fff;
+}
+#header .grin-sub-title {
+  width: 36px;
+  height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: center;
+  margin: 0 35px; /* Adjust the margin as needed */
+  color: #fff;
+}
+#header .laugh-sub-title {
+  width: 49px;
+  height: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: center;
+  margin: 0 35px; /* Adjust the margin as needed */
+  color: #fff;
+}
+
+#header .subtitles {
+  width: 750px;
+  height: 20px;
+  top: 50px;
+  left: 210px;
+  gap: 0px;
+  opacity: 1;
+  position: relative;
+  display: flex;
+  justify-content: center; /* Center the child divs */
+  align-items: center; /* Center the child divs vertically */
+}
+
+#header .header-button {
+  width: 162px;
+  height: 44px;
+  top: 419px;
+  left: 639px;
+  gap: 0px;
+  opacity: 1;
+
+  box-shadow: 0px 2px 20px 0px #00000080;
+  position: absolute; /* To apply the top and left properties */
+  display: inline-block; /* Ensures it behaves like a button */
+  background-color: #007bff; /* Example background color */
+  color: #ffffff; /* Example text color */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Slightly rounded corners */
+  text-align: center; /* Center text horizontally */
+  line-height: 44px; /* Center text vertically */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-family: "Source Sans Pro", sans-serif; /* Example font family */
+  font-size: 16px; /* Example font size */
+  font-weight: 700; /* Bold text */
+  text-decoration: none; /* Remove underline if it’s an anchor */
 }
