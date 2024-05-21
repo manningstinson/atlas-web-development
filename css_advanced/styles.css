@@ -121,7 +121,7 @@ a:link {
   font-size: 0.7rem;
 }
 
-.get-schooled-header {
+#header .get-schooled-header {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 120px;
   font-weight: 700;
@@ -133,5 +133,5 @@ a:link {
   left: 377px;
   gap: 0px;
   opacity: 0;
-  position: absolute; /* Added to make top and left work */
+  position: absolute; /* Ensures top and left work */
 }
