@@ -252,15 +252,14 @@ a:visited {
   height: 45px;
   opacity: 1;
   display: flex;
-  justify-content: flex-start; /* Align items to the start */
-  align-items: center; /* Center items vertically */
+  margin-left:300px
+   align-items:center; /* Center items vertically */
 }
 
 #header .learn-title-learn {
-  width: auto;
+  width: 85px;
   height: 45px;
-  background-color: #860f0f;
-  display: flex;
+   display: flex;
   align-items: center; /* Center content vertically */
   opacity: 1;
   /* Remove unnecessary positioning properties */
@@ -269,9 +268,8 @@ a:visited {
 }
 
 #header .learn-title-from-the-pros {
-  width: auto;
+  width: 200px;
   height: 45px;
-  background-color: #339c6b;
   display: flex;
   align-items: center; /* Center content vertically */
   opacity: 1;
