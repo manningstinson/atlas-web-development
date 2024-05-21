@@ -133,5 +133,5 @@ a:link {
   left: 377px;
   gap: 0px;
   opacity: 0;
-  position: absolute; /* Ensures top and left work */
+  position: relative; /* Ensures top and left work */
 }
