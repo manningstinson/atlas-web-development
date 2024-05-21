@@ -1,1 +1,123 @@
 #header .title-sub-title-container
+
+
+#header .learn{}
+#header .learn-the-pros {}
+
+#header .learn-pro-1 {}
+#header .learn-pro-1-image{}
+#header .learn-pro-1-name{}
+#header .learn-pro-1-description{}
+
+
+#header .learn-pro-2 {}
+#header .learn-pro-2-image{}
+#header .learn-pro-2-name{}
+#header .learn-pro-2-description{}
+
+
+#header .learn-pro-3 {}
+#header .learn-pro-3-image{}
+#header .learn-pro-3-name{}
+#header .learn-pro-3-description{}
+
+
+#header .learn-pro-4 {}
+#header .learn-pro-4-image{}
+#header .learn-pro-4-name{}
+#header .learn-pro-4-description{}
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="school-page-container">
+      <div class="main-part-container">
+        <div id="header" class="header">
+          <div id="header" class="logo">
+            <a href="https://www.example.com">
+              <img src="img/SmileSchool.png" alt="Logo" />
+            </a>
+          </div>
+          <div id="header" class="nav">
+            <a href="login.html">LOGIN</a>
+            <a href="pricing.html">PRICING</a>
+            <a href="courses.html">COURSES</a>
+          </div>
+          <div id="header" class=".title-sub-title-container">
+            <div id="header" class="get-schooled-title">
+              <h1>Get schooled</h1>
+            </div>
+            <div id="header" class="subtitles">
+              <div id="header" class="smiles-sub-title">
+                <p>SMILES</p>
+              </div>
+              <div id="header" class="grin-sub-title">
+                <p>GRIN</p>
+              </div>
+              <div id="header" class="laugh-sub-title">
+                <p>LAUGH</p>
+              </div>
+              <a href="#" class="header-button">Register For Free</a>
+            </div>
+
+            <div id="header" class="learn">
+              
+              <div id="header" class="learn-the-pros">
+                
+                <div id="header" class="learn-pro-1">
+                  <div id="header" class="learn-pro-1">
+                    <div id="header" class="learn-pro-1-image"></div>
+                    <div id="header" class="learn-pro-1-name"></div>
+                    <div id="header" class="learn-pro-1-description"></div>
+                  </div>
+
+                <div id="header" class="learn-pro-2">
+                  <div id="header" class="learn-pro-1">
+                    <div id="header" class="learn-pro-1-image"></div>
+                    <div id="header" class="learn-pro-1-name"></div>
+                    <div id="header" class="learn-pro-1-description"></div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonials-container">
+        <div class="testimonial">
+          <div class="avatar"></div>
+        </div>
+      </div>
+      <div class="most-popular-tutorials-container"></div>
+      <div class="membership-container"></div>
+      <div class="faq-container"></div>
+      <div class="footer-container"></div>
+    </div>
+  </body>
+</html>
+
+
+display: flex;
+  justify-content: space-between; /* This will distribute the space between the children */
+  align-items: center;
+
+  #header .learn-container {
+  display: flex;
+  justify-content: space-between; /* This will distribute the space between the children */
+  align-items: center; /* Align items vertically if needed */
+}
+
+#header .learn-title-learn {
+  width: 500px;
+  height: 45px;
+  opacity: 1;
+  background-color: #860f0f;
+  display: flex;
+  justify-content: flex-end; /* Align content to the right inside the element */
+}

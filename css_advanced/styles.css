@@ -209,8 +209,8 @@ a:visited {
   opacity: 1;
   position: relative;
   display: flex;
-  justify-content: center; /* Center the child divs */
-  align-items: center; /* Center the child divs vertically */
+  justify-content: center;
+  align-items: center;
 }
 
 #header .header-button {
@@ -237,13 +237,45 @@ a:visited {
   border-radius: 200px;
 }
 
-#header .learn {
+#header .learn-container {
+  width: 1000px;
+  height: 237px;
+  top: 250px;
+  left: 75px;
+  opacity: 1;
+  background-color: #fff;
+  position: relative;
 }
-#header .learn-the-pros #header .learn-pro-1 {
+
+#header .learn-title-container {
+  width: 1000px;
+  height: 45px;
+  opacity: 1;
+  display: flex;
+  justify-content: flex-start; /* Align items to the start */
+  align-items: center; /* Center items vertically */
 }
-#header .learn-pro-2 {
+
+#header .learn-title-learn {
+  width: auto;
+  height: 45px;
+  background-color: #860f0f;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  opacity: 1;
+  /* Remove unnecessary positioning properties */
+  /* top: 250px;
+  left: 75px; */
 }
-#header .learn-pro-3 {
-}
-#header .learn-pro-4 {
+
+#header .learn-title-from-the-pros {
+  width: auto;
+  height: 45px;
+  background-color: #339c6b;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  opacity: 1;
+  /* Remove unnecessary positioning properties */
+  /* top: 250px;
+  left: 75px; */
 }
