@@ -4,6 +4,11 @@
   position: relative;
 }
 
+body {
+  display: block;
+  margin: 0px !important;
+}
+
 .main-part-container {
   width: auto;
   height: 1093px;
@@ -230,4 +235,15 @@ a:visited {
   font-weight: 700;
   text-decoration: none;
   border-radius: 200px;
+}
+
+#header .learn {
+}
+#header .learn-the-pros #header .learn-pro-1 {
+}
+#header .learn-pro-2 {
+}
+#header .learn-pro-3 {
+}
+#header .learn-pro-4 {
 }
