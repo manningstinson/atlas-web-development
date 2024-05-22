@@ -21,14 +21,14 @@ body {
 }
 
 .header {
-  width: 1200px;
+  width: 1050px;
   height: 29.46px;
-  position: relative;
   top: 35.02px;
   left: 171.59px;
   padding: 0px;
   gap: 0px;
   opacity: 1;
+  position: relative;
   /* Add any other styles for the header if needed */
 }
 
@@ -128,7 +128,7 @@ a:link {
   font-family: sans-serif; /* Apply sans-serif font as fallback */
   float: right;
   padding: 0 20px; /* Adjusted padding */
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   text-decoration: none; /* Ensure no underline on unvisited links */
 }
 
@@ -149,7 +149,7 @@ a:visited {
   width: 750px;
   height: 151px;
   top: 75px;
-  left: 210px;
+  left: 130px;
   gap: 0px;
   opacity: 1;
   position: relative;
@@ -157,10 +157,10 @@ a:visited {
 }
 
 #header .title-sub-title-container {
-  width: 750px;
+  width: 400px;
   height: 20px;
   top: 226px;
-  left: 210px;
+  left: 0px;
   gap: 0px;
   opacity: 1;
   position: relative;
@@ -204,7 +204,7 @@ a:visited {
   width: 750px;
   height: 20px;
   top: 50px;
-  left: 210px;
+  left: 140px;
   gap: 0px;
   opacity: 1;
   position: relative;
@@ -245,7 +245,7 @@ a:visited {
   opacity: 1;
   position: relative;
   display: flex;
-  left: 400px;
+  left: 330px;
 }
 
 #header .learn-title-learn {
@@ -275,4 +275,154 @@ a:visited {
 #header .learn-title-from-the-pros h2 {
   font-weight: 400; /* Ensure the font weight is normal */
   margin: 32px; /* Remove any default margin */
+}
+
+#header .learn-the-pros {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  opacity: 1;
+  left: 0px;
+  position: relative;
+  top: 470px;
+  padding: 5px;
+  width: auto;
+}
+
+/* First pro container */
+#header .learn-pro-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+  text-align: center; /* Center align text */
+  width: 450px;
+}
+
+/* Image for the first pro */
+#header .learn-pro-1-image {
+  width: 150px; /* Size of the container */
+  height: 150px; /* Size of the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-image: url("img/phillip-massey-pro.png"); /* Path to your image */
+  background-size: cover; /* Scale the image to cover the container */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+/* Name of the first pro */
+#header .learn-pro-1-name {
+  font-weight: bold;
+  margin-top: 10px; /* Adjust space as needed */
+  color: #fff;
+}
+
+/* Description of the first pro */
+#header .learn-pro-1-description {
+  margin-top: 5px; /* Adjust space as needed */
+  font-size: 14px; /* Adjust font size as needed */
+  color: #fff;
+}
+
+#header .learn-pro-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+  text-align: center; /* Center align text */
+  width: 450px;
+}
+
+/* Image for the first pro */
+#header .learn-pro-2-image {
+  width: 150px; /* Size of the container */
+  height: 150px; /* Size of the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-image: url("img/phillip-massey-pro.png"); /* Path to your image */
+  background-size: cover; /* Scale the image to cover the container */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+/* Name of the first pro */
+#header .learn-pro-2-name {
+  font-weight: bold;
+  margin-top: 10px; /* Adjust space as needed */
+  color: #fff;
+}
+
+/* Description of the first pro */
+#header .learn-pro-2-description {
+  margin-top: 5px; /* Adjust space as needed */
+  font-size: 14px; /* Adjust font size as needed */
+  color: #fff;
+}
+
+#header .learn-pro-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+  text-align: center; /* Center align text */
+  width: 450px;
+}
+
+/* Image for the first pro */
+#header .learn-pro-3-image {
+  width: 150px; /* Size of the container */
+  height: 150px; /* Size of the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-image: url("img/phillip-massey-pro.png"); /* Path to your image */
+  background-size: cover; /* Scale the image to cover the container */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+/* Name of the first pro */
+#header .learn-pro-3-name {
+  font-weight: bold;
+  margin-top: 10px; /* Adjust space as needed */
+  color: #fff;
+}
+
+/* Description of the first pro */
+#header .learn-pro-3-description {
+  margin-top: 5px; /* Adjust space as needed */
+  font-size: 14px; /* Adjust font size as needed */
+  color: #fff;
+}
+
+#header .learn-pro-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+  text-align: center; /* Center align text */
+  width: 450px;
+}
+
+/* Image for the first pro */
+#header .learn-pro-4-image {
+  width: 150px; /* Size of the container */
+  height: 150px; /* Size of the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-image: url("img/phillip-massey-pro.png"); /* Path to your image */
+  background-size: cover; /* Scale the image to cover the container */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+/* Name of the first pro */
+#header .learn-pro-4-name {
+  font-weight: bold;
+  margin-top: 10px; /* Adjust space as needed */
+  color: #fff;
+}
+
+/* Description of the first pro */
+#header .learn-pro-4-description {
+  margin-top: 5px; /* Adjust space as needed */
+  font-size: 14px; /* Adjust font size as needed */
+  color: #555; /* Adjust color as needed */
+  color: #fff;
 }
