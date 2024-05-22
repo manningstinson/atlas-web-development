@@ -483,7 +483,11 @@ a:visited {
   top: 1093px;
   gap: 0px;
   opacity: 1;
-  background-color: rgb(255,255,255); /* Set opacity to 1 to make the container fully visible */
+  background-color: rgb(
+    255,
+    255,
+    255
+  ); /* Set opacity to 1 to make the container fully visible */
 }
 
 .most-popular-tutorials-container-tutorial-content {
@@ -496,4 +500,15 @@ a:visited {
   background-color: blue;
   z-index: 1;
   position: relative;
+}
+
+#most-popular-tutorials-title-popular,
+#most-popular-tutorials-title-most,
+#most-popular-tutorials-title-tutorials {
+  width: 294px;
+  height: 40px;
+  left: 482px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
 }
