@@ -6,11 +6,6 @@ body {
 html,
 body {
   font-family: "Source Sans Pro", sans-serif;
-
-  font-weight: 300;
-  text-align: center;
-  margin: 0;
-  padding: 0;
 }
 
 .school-page-container {
@@ -59,38 +54,74 @@ body {
 
 /* Styles for .testimonials-container */
 .testimonials-container {
+  display: flex;
   width: auto;
   height: 392px;
   top: 1093px;
-  left: -1px;
   gap: 0px;
   opacity: 1;
   background: #c271ff;
   /* Add any other styles for the testimonials container if needed */
 }
 
-/* Specific styles for .testimonial */
 .testimonials-container .testimonial {
-  width: 943px;
-  height: 160px;
-  top: 1201px;
-  left: 259px;
-  gap: 0px;
+  display: flex;
+  height: 158px;
+  top: 1203px;
   opacity: 1;
-  background-color: aqua;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.testimonials-container .testimonial-info {
+  height: 158px;
+  top: 1203px;
+  opacity: 1;
+  width: 750px;
+  padding: 50px;
+  margin-top: -40px;
 }
 
 /* Specific styles for .avatar */
 .testimonials-container .testimonial .avatar {
-  width: 160px;
-  height: 160px;
-  top: 1201px;
-  left: 259px;
-  gap: 0px;
-  opacity: 1;
-  z-index: 1;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
   background-image: url("img/avatar.png");
-  background-color: rgb(255, 0, 179);
+  background-size: 225% 180%;
+  background-position: center top; /* Center horizontally and align to the top vertically */
+  background-repeat: no-repeat;
+}
+
+.testimonials-container .testimonial .description {
+  color: white; /* Set font color to white */
+  float: left; /* Float elements to the left */
+  clear: both; /* Ensure each div starts on a new line */
+  width: 100%; /* Ensure each div takes up full width */
+  box-sizing: border-box; /* Include padding and border in width */
+  text-align: left; /* Align text to the left */
+  line-height: 22px;
+}
+
+.testimonials-container .testimonial .name {
+  color: white; /* Set font color to white */
+  float: left; /* Float elements to the left */
+  clear: both; /* Ensure each div starts on a new line */
+  width: 100%; /* Ensure each div takes up full width */
+  box-sizing: border-box; /* Include padding and border in width */
+  text-align: left; /* Align text to the left */
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.testimonials-container .testimonial .jobprofile {
+  color: white; /* Set font color to white */
+  float: left; /* Float elements to the left */
+  clear: both; /* Ensure each div starts on a new line */
+  width: 100%; /* Ensure each div takes up full width */
+  box-sizing: border-box; /* Include padding and border in width */
+  text-align: left; /* Align text to the left */
 }
 
 .most-popular-tutorials-container {
@@ -262,7 +293,7 @@ a:visited {
 }
 
 #header .learn-title-learn {
-  width: 25px;
+  width: 52px;
   height: 20px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 25px;
@@ -283,10 +314,11 @@ a:visited {
   margin: 0 35px; /* Adjust the margin as needed */
   color: #fff;
   margin-left: 5px;
+  font-weight: 300;
 }
 
 #header .learn-title-from-the-pros h2 {
-  font-weight: 700 !important; /* Ensure the font weight is normal */
+  font-weight: 300 !important; /* Ensure the font weight is normal */
   margin: 32px; /* Remove any default margin */
 }
 
