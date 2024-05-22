@@ -562,6 +562,10 @@ a:visited {
   gap: 0px;
   border-radius: 5px 5px 0 0;
   opacity: 0px;
+  background-image: url("img/diagonal-smile.png");
+  background-size: 400; /* Increase the zoom */
+  background-position: 55% 20%; /* Adjust positioning to focus on the face */
+  background-repeat: no-repeat;
 }
 
 #tutorial-1-container #tutorial-1-video-player {
@@ -569,7 +573,7 @@ a:visited {
   height: 64px;
   top: 45px;
   left: 96px;
-  position: absolute;
+  background-color: rgb(68, 190, 74);
 }
 
 #tutorial-1-container #tutorial-1-title {
@@ -599,6 +603,16 @@ a:visited {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+  position: absolute;
+}
+
+#tutorial-1-container #tutorial-1-start-rating-play-time-container {
+  width: 30px;
+  height: 30px;
+  top: 261px;
+  left: 13px;
+  gap: 0px;
+  opacity: 0px;
   position: absolute;
 }
 
