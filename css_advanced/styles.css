@@ -476,3 +476,24 @@ a:visited {
   color: #555; /* Adjust color as needed */
   color: #fff;
 }
+
+.most-popular-tutorials-container {
+  width: auto;
+  height: 392px;
+  top: 1093px;
+  gap: 0px;
+  opacity: 1;
+  background-color: rgb(255,255,255); /* Set opacity to 1 to make the container fully visible */
+}
+
+.most-popular-tutorials-container-tutorial-content {
+  width: 945px;
+  height: 450px;
+  top: 1572px;
+  left: 106px;
+  gap: 0px;
+  opacity: 1;
+  background-color: blue;
+  z-index: 1;
+  position: relative;
+}
