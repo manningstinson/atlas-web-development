@@ -541,7 +541,7 @@ a:visited {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 #tutorial-1-container {
@@ -565,14 +565,16 @@ a:visited {
   background-repeat: no-repeat;
 }
 
-#tutorial-1-container #tutorial-1-video-player {
+#tutorial-1-video-player {
   width: 64px;
   height: 64px;
-  top: 45px;
-  left: 96px;
-  background-color: rgb(68, 190, 74);
+  position: absolute; /* Added to position the element with top and left properties */
+  top: 10px;
+  left: 50px;
+  opacity: 1;
+  z-index: 2;
+  margin: 40px 0 20px 40px; /* Shorthand for margin-top, margin-right, margin-bottom, and margin-left */
 }
-
 #tutorial-1-container #tutorial-1-title {
   width: 200px;
   height: 20px;
@@ -717,6 +719,17 @@ a:visited {
   position: absolute;
 }
 
+#tutorial-2-video-player {
+  width: 64px;
+  height: 64px;
+  position: absolute; /* Added to position the element with top and left properties */
+  top: 10px;
+  left: 50px;
+  opacity: 1;
+  z-index: 2;
+  margin: 40px 0 20px 40px; /*/* Shorthand for margin-top, margin-right, margin-bottom, and margin-left */
+}
+
 #tutorial-3-container {
   width: 255px;
   height: 255px;
@@ -767,6 +780,17 @@ a:visited {
   position: absolute;
 }
 
+#tutorial-3-video-player {
+  width: 64px;
+  height: 64px;
+  position: absolute; /* Added to position the element with top and left properties */
+  top: 10px;
+  left: 50px;
+  opacity: 1;
+  z-index: 2;
+  margin: 40px 0 20px 40px; /* Shorthand for margin-top, margin-right, margin-bottom, and margin-left */
+}
+
 #tutorial-4-container {
   width: 255px;
   height: 255px;
@@ -815,4 +839,15 @@ a:visited {
   line-height: 24px;
   text-align: left;
   position: absolute;
+}
+
+#tutorial-4-video-player {
+  width: 64px;
+  height: 64px;
+  position: absolute; /* Added to position the element with top and left properties */
+  top: 10px;
+  left: 50px;
+  opacity: 1;
+  z-index: 2;
+  margin: 40px 0 20px 40px; /*Shorthand for margin-top, margin-right, margin-bottom, and margin-left */
 }
