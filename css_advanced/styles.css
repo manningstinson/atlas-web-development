@@ -1206,11 +1206,12 @@ a:visited {
   align-items: center;
   padding: 20px;
   background-color: #071629;
+  height: 240px;
 }
 
 .footer-container .logo-div img {
-  height: 11px;
-  width: 112px;
+  height: auto;
+  width: 100%;
 }
 
 .footer-container .social-icons a {
