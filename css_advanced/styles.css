@@ -1015,7 +1015,7 @@ a:visited {
 
 .membership-container {
   width: auto;
-  height: 600px;
+  height: 500px;
   top: 1093px;
   gap: 0px;
   opacity: 1;
@@ -1033,7 +1033,6 @@ a:visited {
   position: relative;
   left: 20px;
   right: 50px;
-  background-color: aqua;
 }
 
 #membership-container-container-title {
@@ -1066,27 +1065,158 @@ a:visited {
   color: white;
 }
 
-.membership-container-options-grid {
-  line-height: 40.22px;
-  text-align: center;
-  width: 100%;
-  height: 200px;
-  margin-top: 60px;
+.membership-options-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  background-color: aqua;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 125px;
+  margin-top: 100px;
 }
 
-.membership-container-options-grid-option-1,
-.membership-container-options-grid-option-2,
-.membership-container-options-grid-option-3,
-.membership-container-options-grid-option-4 {
-  width: 200px;
-  height: 300px;
-  gap: 20px;
+#membership-container-membership-option-1,
+#membership-container-membership-option-2,
+#membership-container-membership-option-3,
+#membership-container-membership-option-4 {
+  flex: 1 1 22%; /* Flex-grow, flex-shrink, and flex-basis */
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#membership-container-membership-option-1 .icon img,
+#membership-container-membership-option-2 .icon img,
+#membership-container-membership-option-3 .icon img,
+#membership-container-membership-option-4 .icon img {
+  width: 50px;
+  height: 50px;
+}
+
+#membership-container-membership-option-1 .title,
+#membership-container-membership-option-2 .title,
+#membership-container-membership-option-3 .title,
+#membership-container-membership-option-4 .title {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #fff;
+}
+
+#membership-container-membership-option-1 .description,
+#membership-container-membership-option-2 .description,
+#membership-container-membership-option-3 .description,
+#membership-container-membership-option-4 .description {
+  font-size: 1em;
+  color: #333;
+  color: #fff;
+}
+
+.membership-options-select-membership {
+  margin-top: 20px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.membership-options-select-membership-button {
+  width: 162px;
+  height: 44px;
+  justify-content: center;
+  gap: 0px;
   opacity: 1;
-  z-index: 3;
-  background-color: rgb(45, 109, 149);
+  box-shadow: 0px 2px 20px 0px #00000080;
+  background-color: #c271ff;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  line-height: 44px;
+  cursor: pointer;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  width: 200px;
+  border-radius: 200px;
+}
+
+/* FAQ Section */
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.faq-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.faq-title {
+  margin-bottom: 5px;
+}
+
+.faq-title h1 {
+  font-size: 4em;
+  color: #071629;
+  text-align: center;
+}
+
+#faq-column-1,
+#faq-column-2,
+#faq-column-3,
+#faq-column-4 {
+  flex: 1;
+  max-width: 45%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 10px;
+  /* padding: 50px; */
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: justify;
+}
+#faq-column-1 h3,
+#faq-column-2 h3,
+#faq-column-3 h3,
+#faq-column-4 h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#faq-column-1 p,
+#faq-column-2 p,
+#faq-column-3 p,
+#faq-column-4 p {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.75;
+}
+
+/* Footer Section */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #071629;
+}
+
+.footer-container .logo-div img {
+  height: 11px;
+  width: 112px;
+}
+
+.footer-container .social-icons a {
+  margin: 0 10px;
+}
+
+.footer-container .social-icons img {
+  height: 30px;
 }
