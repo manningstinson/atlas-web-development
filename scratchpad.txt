@@ -1,11 +1,207 @@
-#tutorial-1-container #tutorial-1-star-rating {
-  width: 107px;
-  height: 15px;
-  top: 305px;
-  left: 13px;
+.membership-container {
+  width: auto;
+  height: 550px;
+  top: 1093px;
+  gap: 0px;
+  opacity: 1;
+  background-color:
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.membership-container-membership-content {
+  width: 1000px;
+  height: 450px;
+  top: 1572px;
+  gap: 0px;
+  opacity: 1;
+  z-index: 1;
+  position: relative;
+  left: 200px;
+}
+
+#membership-container-container-title {
+  line-height: 40.22px;
+  text-align: center;
+  width: 50%;
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  left: 340px;
+  font-weight: 300 !important;
+  top: 20px;
+}
+#membership-container-title-free {
+  width: auto;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 500;
+  color:white;
+}
+
+#most-popular-tutorials-title-popular {
+  width: auto;
+  height: 40px;
+  color: #c271ff;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+#most-popular-tutorials-title-tutorials {
+  width: auto;
+  height: 40px;
+  font-size: 25px;
+}
+
+#most-popular-tutorials-container-video-grid {
+  line-height: 40.22px;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#tutorial-1-container {
+  width: 255px;
+  height: 255px;
+  top: 115px;
   gap: 0px;
   opacity: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#tutorial-1-container #tutorial-1-video-thumbnail {
+  width: 255px;
+  height: 154px;
+  gap: 0px;
+  border-radius: 5px 5px 0 0;
+  opacity: 0px;
+  background-image: url("img/diaganol-smile-tutorial.png");
+  background-repeat: no-repeat;
+}
+
+#tutorial-1-video-player {
+  width: 64px;
+  height: 64px;
+  position: absolute; /* Added to position the element with top and left properties */
+  top: 10px;
+  left: 50px;
+  opacity: 1;
+  z-index: 2;
+  margin: 40px 0 20px 40px; /* Shorthand for margin-top, margin-right, margin-bottom, and margin-left */
+}
+#tutorial-1-container #tutorial-1-title {
+  width: 200px;
+  height: 20px;
+  top: 150px;
+  gap: 0px;
+  opacity: 1;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: left;
   position: absolute;
+  color: #071629;
+}
+
+#tutorial-1-container #tutorial-1-description {
+  width: 242px;
+  height: 48px;
+  top: 189.6px;
+
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  position: absolute;
+}
+
+#tutorial-1-container #tutorial-1-star-rating-play-time-container {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 30px;
+  top: 310px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+}
+
+#tutorial-1-container #tutorial-1-star-rating {
+  opacity: 1;
+}
+
+#tutorial-1-container #tutorial-1-play-time {
+  opacity: 1;
+  color: #c271ff;
+  font-weight: 700;
+  width: auto;
+  font-family: "Source Sans Pro", sans-serif;
+  float: right;
+  margin-top: -5px;
+  margin-left: 100px;
+}
+
+#tutorial-1-container #tutorial-1-author-name-container {
+  display: flex; /* Makes it a flex container */
+  align-items: center; /* Centers items vertically */
+  position: absolute; /* Adjust as needed */
+  top: 270px;
+  left: 0px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+}
+
+#tutorial-1-container #tutorial-1-author-name {
+  width: 100px; /* Adjusted for the name element */
+  height: 30px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  margin-left: 15px; /* Adds spacing between image and name, if needed */
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: -30px;
+  color: #c271ff;
+}
+
+#tutorial-1-container #tutorial-1-author-image {
+  width: 25px;
+  height: 25px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  background-image: url("img/phillip-massey-pro.png"); /* Adjusted for the image element */
+  background-size: cover; /* Scale the image to cover the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  left: -50px;
 }
 
 #tutorial-1-container #tutorial-1-video-play-time {
@@ -23,45 +219,364 @@
   position: absolute;
 }
 
-#tutorial-1-container #tutorial-1-start-rating-play-time-container {
+#tutorial-2-container {
+  width: 255px;
+  height: 255px;
+  top: 115px;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 107px;
-  height: 30px;
-  top: 261px;
-  left: 13px;
-  opacity: 0;
+  flex-direction: column;
+}
+
+#tutorial-2-container #tutorial-2-video-thumbnail {
+  width: 255px;
+  height: 154px;
+  gap: 0px;
+  border-radius: 5px 5px 0 0;
+  opacity: 0px;
+  background-image: url("img/sad-smile-tutorial.png");
+  background-repeat: no-repeat;
+}
+
+#tutorial-2-container #tutorial-2-title {
+  width: 200px;
+  height: 20px;
+  top: 150px;
+  gap: 0px;
+  opacity: 1;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: left;
+  position: absolute;
+  color: #071629;
+}
+
+#tutorial-2-container #tutorial-2-description {
+  width: 242px;
+  height: 48px;
+  top: 189.6px;
+  gap: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
   position: absolute;
 }
 
+#tutorial-2-video-player {
+  width: 64px;
+  height: 64px;
+  position: absolute; /* Added to position the element with top and left properties */
+  top: 10px;
+  left: 50px;
+  opacity: 1;
+  z-index: 2;
+  margin: 40px 0 20px 40px; /*/* Shorthand for margin-top, margin-right, margin-bottom, and margin-left */
+}
 
-#tutorial-1-container #tutorial-1-start-rating-play-time-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 107px;
+#tutorial-2-container #tutorial-2-author-name-container {
+  display: flex; /* Makes it a flex container */
+  align-items: center; /* Centers items vertically */
+  position: absolute; /* Adjust as needed */
+  top: 270px;
+  left: 0px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+}
+
+#tutorial-2-container #tutorial-2-author-name {
+  width: 100px; /* Adjusted for the name element */
   height: 30px;
-  top: 261px;
-  left: 13px;
-  opacity: 0;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  margin-left: 15px; /* Adds spacing between image and name, if needed */
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: -30px;
+  color: #c271ff;
+}
+
+#tutorial-2-container #tutorial-2-author-image {
+  width: 25px;
+  height: 25px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  background-image: url("img/phillip-massey-pro.png"); /* Adjusted for the image element */
+  background-size: cover; /* Scale the image to cover the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  left: -50px;
+}
+
+#tutorial-2-container #tutorial-2-star-rating-play-time-container {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 30px;
+  top: 310px;
+  left: 0px;
+  opacity: 1;
   position: absolute;
 }
 
-#tutorial-1-container #tutorial-1-star-rating {
-  flex: 0 0 auto;
+#tutorial-2-container #tutorial-2-star-rating {
+  opacity: 1;
 }
 
-#tutorial-1-container #tutorial-1-star-rating 
-img {src: "img/5-star-rating.png"; /* Adjust the path to your image file */
+#tutorial-2-container #tutorial-2-play-time {
+  opacity: 1;
+  color: #c271ff;
+  font-weight: 700;
+  width: auto;
+  font-family: "Source Sans Pro", sans-serif;
+  float: right;
+  margin-top: -5px;
+  margin-left: 100px;
 }
 
-#tutorial-1-container #tutorial-1-play-time {
-  flex: 0 0 auto;
-  margin-left: auto;
+#tutorial-3-container {
+  width: 255px;
+  height: 255px;
+  top: 115px;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
- <div id="tutorial-1-start-rating-play-time-container">
-    <div id="tutorial-1-star-rating">
-      <img src="img/5-star-rating.png" alt="5 Star Rating" />
-    </div>
+#tutorial-3-container #tutorial-3-video-thumbnail {
+  width: 255px;
+  height: 154px;
+  gap: 0px;
+  border-radius: 5px 5px 0 0;
+  opacity: 0px;
+  background-image: url("img/natural-smile-tutorial.png");
+  background-repeat: no-repeat;
+}
+
+#tutorial-3-container #tutorial-3-title {
+  width: 200px;
+  height: 20px;
+  top: 150px;
+  gap: 0px;
+  opacity: 1;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: left;
+  position: absolute;
+  color: #071629;
+}
+
+#tutorial-3-container #tutorial-3-description {
+  width: 242px;
+  height: 48px;
+  top: 189.6px;
+  gap: 0px;
+  opacity: 1;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  position: absolute;
+}
+
+#tutorial-3-video-player {
+  width: 64px;
+  height: 64px;
+  position: absolute; /* Added to position the element with top and left properties */
+  top: 10px;
+  left: 50px;
+  opacity: 1;
+  z-index: 2;
+  margin: 40px 0 20px 40px; /* Shorthand for margin-top, margin-right, margin-bottom, and margin-left */
+}
+
+#tutorial-3-container #tutorial-3-author-name-container {
+  display: flex; /* Makes it a flex container */
+  align-items: center; /* Centers items vertically */
+  position: absolute; /* Adjust as needed */
+  top: 270px;
+  left: 0px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+}
+
+#tutorial-3-container #tutorial-3-author-name {
+  width: 100px; /* Adjusted for the name element */
+  height: 30px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  margin-left: 15px; /* Adds spacing between image and name, if needed */
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: -30px;
+  color: #c271ff;
+}
+
+#tutorial-3-container #tutorial-3-author-image {
+  width: 25px;
+  height: 25px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  background-image: url("img/phillip-massey-pro.png"); /* Adjusted for the image element */
+  background-size: cover; /* Scale the image to cover the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  left: -50px;
+}
+
+#tutorial-3-container #tutorial-3-star-rating-play-time-container {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 30px;
+  top: 310px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+}
+
+#tutorial-3-container #tutorial-3-star-rating {
+  opacity: 1;
+}
+
+#tutorial-3-container #tutorial-3-play-time {
+  opacity: 1;
+  color: #c271ff;
+  font-weight: 700;
+  width: auto;
+  font-family: "Source Sans Pro", sans-serif;
+  float: right;
+  margin-top: -5px;
+  margin-left: 100px;
+}
+
+#tutorial-4-container {
+  width: 255px;
+  height: 255px;
+  top: 115px;
+  gap: 0px;
+  opacity: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#tutorial-4-container #tutorial-4-video-thumbnail {
+  width: 255px;
+  height: 154px;
+  gap: 0px;
+  border-radius: 5px 5px 0 0;
+  opacity: 0px;
+  background-image: url("img/happy-smile-tutorial.png");
+  background-repeat: no-repeat;
+}
+
+#tutorial-4-container #tutorial-4-title {
+  width: 200px;
+  height: 20px;
+  top: 150px;
+  gap: 0px;
+  opacity: 1;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: left;
+  position: absolute;
+  color: #071629;
+}
+
+#tutorial-4-container #tutorial-4-description {
+  width: 242px;
+  height: 48px;
+  top: 189.6px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  position: absolute;
+}
+
+#tutorial-4-video-player {
+  width: 64px;
+  height: 64px;
+  position: absolute; /* Added to position the element with top and left properties */
+  top: 10px;
+  left: 50px;
+  opacity: 1;
+  z-index: 2;
+  margin: 40px 0 20px 40px; /*Shorthand for margin-top, margin-right, margin-bottom, and margin-left */
+}
+
+#tutorial-4-container #tutorial-4-author-name-container {
+  display: flex; /* Makes it a flex container */
+  align-items: center; /* Centers items vertically */
+  position: absolute; /* Adjust as needed */
+  top: 270px;
+  left: 0px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+}
+
+#tutorial-4-container #tutorial-4-author-name {
+  width: 100px; /* Adjusted for the name element */
+  height: 30px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  margin-left: 15px; /* Adds spacing between image and name, if needed */
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: -30px;
+  color: #c271ff;
+}
+
+#tutorial-4-container #tutorial-4-author-image {
+  width: 25px;
+  height: 25px;
+  opacity: 1; /* Assuming you want these elements to be invisible initially */
+  background-image: url("img/phillip-massey-pro.png"); /* Adjusted for the image element */
+  background-size: cover; /* Scale the image to cover the container */
+  border-radius: 50%; /* Optional: for a circular image */
+  overflow: hidden; /* Optional: hide overflow for circular images */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  left: -50px;
+}
+
+#tutorial-4-container #tutorial-4-star-rating-play-time-container {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 30px;
+  top: 310px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+}
+
+#tutorial-4-container #tutorial-4-star-rating {
+  opacity: 1;
+}
+
+#tutorial-4-container #tutorial-4-play-time {
+  opacity: 1;
+  color: #c271ff;
+  font-weight: 700;
+  width: auto;
+  font-family: "Source Sans Pro", sans-serif;
+  float: right;
+  margin-top: -5px;
+  margin-left: 100px;
+}
